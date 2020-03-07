@@ -1,0 +1,27 @@
+{
+  "name": "nodejsexpressapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ItamarTati/NodeJsExpressApi.git"
+  },
+  "author": "Itamar Tati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItamarTati/NodeJsExpressApi/issues"
+  },
+  "homepage": "https://github.com/ItamarTati/NodeJsExpressApi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3",
+    "nodemon": "^2.0.2"
+  }
+}
